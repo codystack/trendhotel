@@ -1,14 +1,4 @@
-/*!
- * gdpr-cookie - A jQuery plugin to manage cookie settings in compliance with EU law
- *
- * Copyright (c) 2018 Martijn Saly
- *
- * Licensed under the MIT license:
- *   http://www.opensource.org/licenses/mit-license.php
- *
- * Version: 0.2.0
- *
- */
+
 ;(function(root, factory) {
     if (typeof define === "function" && define.amd) {
         // AMD
@@ -121,7 +111,7 @@
             ],
             title: "Accept Cookies & privacy",
             subtitle: "Select cookies to accept",
-            message: "Cookies enable you to use shopping carts and to personalize your experience on our sites, tell us which parts of our websites people have visited, help us measure the effectiveness of ads and web searches.",
+            message: "At Trend Hotel and Suites, cookies make it easier to book rooms, customize your website experience, see which pages are most helpful, and track how well our ads and searches work.",
             submessage: "",
             delay: 2000,
             expires: 30,

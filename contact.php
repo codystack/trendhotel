@@ -4,8 +4,6 @@ include "./components/navbar.php";
 include "./components/offcanvas-menu.php";
 ?>
 
-
-    <!-- page header -->
     <div class="rts__section page__hero__bg" style="background-image: url(assets/images/14.jpeg); height: 300px; width: 100%; display: flex; justify-content: center; align-items: center; text-align: center;">
         <div class="container">
             <div class="row align-items-center justify-content-center">
@@ -18,9 +16,8 @@ include "./components/offcanvas-menu.php";
             </div>
         </div>
     </div>
-    <!-- page header end -->
 
-    <!-- contact area -->
+    
     <div class="rts__section section__padding">
         <div class="container">
             <div class="row g-30 align-items-center">
@@ -51,6 +48,6 @@ include "./components/offcanvas-menu.php";
             </div>
         </div>
     </div>
-    <!-- contact area end -->
+
 
 <?php include "./components/footer.php"; ?>
