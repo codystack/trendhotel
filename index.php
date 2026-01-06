@@ -1,6 +1,7 @@
 <?php
 include "./components/header.php";
 include "./components/navbar.php";
+include "./components/offcanvas-menu.php";
 ?>
 
     <!-- banner area -->
@@ -599,7 +600,7 @@ include "./components/navbar.php";
     <!-- special section end -->
 
     <!-- gallery -->
-    <div class="rts__section is__home__main">
+    <div class="rts__section is__home__main mb-120">
         <div class="container-fluid">
             <div class="row position-relative justify-content-center text-center mb-30">
                 <div class="col-lg-6 wow fadeInUp">
