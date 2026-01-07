@@ -4,72 +4,67 @@ include "./components/navbar.php";
 include "./components/offcanvas-menu.php";
 ?>
 
-    <!-- banner area -->
-    <div class="rts__section banner__area is__home__one banner__height banner__center">
+    <div class="rts__section is__home__one banner__height banner__center">
         <div class="banner__slider overflow-hidden">
             <div class="swiper-wrapper">
-                <!-- single slider item -->
+                
                 <div class="swiper-slide">
                     <div class="banner__slider__image">
-                        <img src="assets/images/banner/1.webp" alt="">
+                        <img src="assets/images/DSC_0345.jpg" alt="">
                     </div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-10">
                                 <div class="banner__slide__content">
-                                    <span class="h6 subtitle__icon">Welcome to Our Hotel</span>
-                                    <h1>Luxury Stay Hotel Experience Comfort & Elegance</h1>
-                                    <p class="sub__text">Choosing Bokinn was one of the best decisions we've ever made. They have proven to be a reliable and innovative partner</p>
-                                    <a href="room-two.html" class="theme-btn btn-style fill no-border "><span>Discover Room</span>
+                                    <span class="h6 subtitle__icon">Trend Hotel & Suites</span>
+                                    <h1>Experience Unmatched Comfort</h1>
+                                    <p class="sub__text">Stay in elegantly designed rooms with modern amenities, exceptional service, and a serene atmosphere for both business and leisure travelers.</p>
+                                    <a href="rooms" class="theme-btn btn-style fill no-border "><span>Discover Room</span>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- single slider item end -->
+                
 
-                <!-- single slider item -->
                 <div class="swiper-slide">
                     <div class="banner__slider__image">
-                        <img src="assets/images/banner/2.webp" alt="">
+                        <img src="assets/images/DSC_0251.jpg" alt="">
                     </div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-10">
                                 <div class="banner__slide__content">
-                                    <span class="h6 subtitle__icon">Welcome to Our Spa</span>
-                                    <h1>Lavish Getaway A Blend of Comfort & Style</h1>
-                                    <p class="sub__text">Choosing Bokinn was one of the best decisions we've ever made. They have proven to be a reliable and innovative partner</p>
-                                    <a href="room-one.html" class="theme-btn btn-style fill no-border "><span>Discover Room</span>
+                                    <span class="h6 subtitle__icon">Trend Hotel & Suites</span>
+                                    <h1>Dine, Relax, and Unwind</h1>
+                                    <p class="sub__text">Savor exquisite meals at our restaurant, enjoy drinks at the VIP or pool bar, and relax in our luxurious facilities designed to make every moment memorable.</p>
+                                    <a href="rooms" class="theme-btn btn-style fill no-border "><span>Book a Room</span>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- single slider item end -->
-
-                <!-- single slider item -->
+                
                 <div class="swiper-slide">
                     <div class="banner__slider__image">
-                        <img src="assets/images/banner/banner-3.webp" alt="">
+                        <img src="assets/images/DSC_0366.jpg" alt="">
                     </div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-10">
                                 <div class="banner__slide__content">
-                                    <span class="h6 subtitle__icon">Welcome to Our Spa</span>
-                                    <h1> A Perfect Fusion of Comfort and Elegance</h1>
-                                    <p class="sub__text">Choosing Bokinn was one of the best decisions we've ever made. They have proven to be a reliable and innovative partner</p>
-                                    <a href="room-one.html" class="theme-btn btn-style fill no-border "><span>Discover Room</span>
+                                    <span class="h6 subtitle__icon">Trend Hotel & Suites</span>
+                                    <h1>Luxury at Every Corner</h1>
+                                    <p class="sub__text">From our deluxe rooms to exclusive suites, Trend Hotel and Suites combines style, comfort, and attentive hospitality for an unforgettable stay in Nnewi.</p>
+                                    <a href="rooms" class="theme-btn btn-style fill no-border "><span>Make a Reservation</span>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- single slider item end -->
 
             </div>
             <div class="rts__slider__nav">
@@ -93,88 +88,8 @@ include "./components/offcanvas-menu.php";
 
         </div>
     </div>
-    <!-- banner area end -->
 
-    <!-- advance search -->
-    <div class="rts__section advance__search__section is__home__one">
-        <div class="container">
-            <div class="row">
-                <form action="room-two.html" method="post" class="advance__search">
-                    <div class="advance__search__wrapper wow fadeInUp">
-                        <!-- single input -->
-                        <div class="query__input">
-                            <label for="check__in" class="query__label">Check In</label>
-                            <input type="text" id="check__in" name="check__in" placeholder="15 Jun 2024" required>
-                            <div class="query__input__icon">
-                                <i class="flaticon-calendar"></i>
-                            </div>
-                        </div>
-                        <!-- single input end -->
 
-                        <!-- single input -->
-                        <div class="query__input">
-                            <label for="check__out" class="query__label">Check Out</label>
-                            <input type="text" id="check__out" name="check__out" placeholder="15 May 2024" required>
-                            <div class="query__input__icon">
-                                <i class="flaticon-calendar"></i>
-                            </div>
-                        </div>
-                        <!-- single input end -->
-
-                        <!-- single input -->
-                        <div class="query__input">
-                            <label for="adult" class="query__label ">Adult</label>
-                            <select name="adult" id="adult" class="form-select">
-                                <option value="1">1 Person</option>
-                                <option value="2">2 Person</option>
-                                <option value="3">3 Person</option>
-                                <option value="4">4 Person</option>
-                                <option value="5">5 Person</option>
-                                <option value="6">6 Person</option>
-                                <option value="7">7 Person</option>
-                                <option value="8">8 Person</option>
-                                <option value="9">9 Person</option>
-                            </select>
-                            <div class="query__input__icon">
-                                <i class="flaticon-user"></i>
-                            </div>
-                        </div>
-                        <!-- single input end -->
-
-                        <!-- single input -->
-                        <div class="query__input">
-                            <label for="child" class="query__label ">Child</label>
-                            <select name="child" id="child" class="form-select">
-                                <option value="1">1 Child</option>
-                                <option value="2">2 Child</option>
-                                <option value="3">3 Child</option>
-                                <option value="4">4 Child</option>
-                                <option value="5">5 Child</option>
-                                <option value="6">6 Child</option>
-                                <option value="7">7 Child</option>
-                                <option value="8">8 Child</option>
-                                <option value="9">9 Child</option>
-                            </select>
-                            <div class="query__input__icon">
-                                <i class="flaticon-user"></i>
-                            </div>
-                        </div>
-                        <!-- single input end -->
-
-                        <!-- submit button -->
-                        <button class="theme-btn btn-style fill no-border search__btn">
-                            <span>Check Now</span>
-                        </button>
-                        <!-- submit button end -->
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <!-- advance search end -->
-
-    <!-- about us -->
     <div class="rts__section about__area is__home__main section__padding">
         <div class="section__shape d-none d-xl-block">
             <img src="assets/images/about/section__shape.svg" alt="">
@@ -185,38 +100,25 @@ include "./components/offcanvas-menu.php";
                     <div class="image ">
                         <div class="position-relative  wow fadeInUp" data-wow-delay=".3s">
                             <div class="jara-mask-1 jarallax image-height">
-                                <img src="assets/images/about/about-1.webp" class="jarallax-img" alt="">
-                            </div>
-                        </div>
-                        <div class="image__card radius-10 wow fadeInUp" data-wow-delay=".5s">
-                            <div class="icon radius-10 center-item">
-                                <i class="flaticon-people"></i>
-                            </div>
-                            <div class="content">
-                                <span class="h5">50+</span>
-                                <p>Experience Staff</p>
+                                <img src="assets/images/abt1.jpg" class="jarallax-img" alt="">
                             </div>
                         </div>
                         <div class="image__card__image wow fadeInUp">
-                            <img src="assets/images/about/about-main.webp" width="312" height="230" alt="">
+                            <img src="assets/images/about-main.jpg" width="312" height="230" alt="">
                         </div>
                     </div>
                     <div class="content">
-                        <span class="h6 subtitle__icon__two d-block wow fadeInUp">About Us</span>
-                        <h2 class="content__title wow fadeInUp">Welcome To Our Moonlit Hotel & Resort</h2>
-                        <p class="content__subtitle wow fadeInUp" data-wow-delay=".3s">Welcome to Bokinn, where luxury meets comfort in the heart of canada. Since 1999,
-                            we have been dedicated to providing an exceptional stay for our guests, blending
-                            modern amenities with timeless elegance.Our beautifully designed rooms and suites
-                            offer stunning views and plush accommodations, ensuring a restful retreat whether
-                            you're here for business or leisure.</p>
-                        <a href="#" class="theme-btn btn-style fill no-border wow fadeInUp" data-wow-delay=".5s"><span>Learn More</span></a>
+                        <span class="h6 subtitle__icon__two d-block wow fadeInUp">Your comfort, our passion</span>
+                        <h2 class="content__title wow fadeInUp">Comfort. Luxury. Unforgettable stays</h2>
+                        <p class="content__subtitle wow fadeInUp mb-3" data-wow-delay=".3s">At Trend Hotel and Suites, we redefine comfort, style, and hospitality in the heart of Nnewi. Our hotel offers elegantly designed rooms, exquisite dining, and top-notch facilities—including a VIP bar, pool bar, and relaxing swimming pool—crafted to make every stay memorable.</p>
+                        <p class="content__subtitle wow fadeInUp" data-wow-delay=".3s">Whether you’re here for business, leisure, or special occasions, our dedicated team ensures personalized service and a welcoming atmosphere, so you can relax, unwind, and enjoy the perfect stay.</p>
+                        <a href="about" class="theme-btn btn-style fill no-border wow fadeInUp" data-wow-delay=".5s"><span>Learn More</span></a>
                     </div>
 
                 </div>
             </div>
         </div>
     </div>
-    <!-- about us end -->
 
     <!-- facilities -->
     <div class="rts__section facilities__area has__background has__shape py-90">
@@ -284,7 +186,7 @@ include "./components/offcanvas-menu.php";
     <!-- facilities end -->
 
     <!-- our room -->
-    <div class="rts__section pt-120">
+    <div class="rts__section pt-120 pb-120">
         <div class="container">
             <div class="row">
                 <div class="section__wrapper mb-40 wow fadeInUp">
@@ -412,88 +314,6 @@ include "./components/offcanvas-menu.php";
         </div>
     </div>
     <!-- our room end -->
-
-    <!-- client testimonial  -->
-    <div class="rts__section section__padding testimonial has__shape">
-        <div class="container">
-            <div class="row mb-40">
-                <div class="d-flex align-items-center justify-content-between position-relative">
-                    <div class="section__content__left">
-                        <span class="h6 subtitle__icon__two d-block wow fadeInUp">Testimonial</span>
-                        <h2 class="content__title h2 lh-1">What Our Client Say</h2>
-                    </div>
-                    <div class="slider__navigation">
-                        <div class="nav__btn button-next">
-                            <img src="assets/images/icon/arrow-left-short.svg" alt="">
-                        </div>
-                        <div class="nav__btn button-prev">
-                            <img src="assets/images/icon/arrow-right-short.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-11">
-                    <div class="testimonial__slider overflow-hidden">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="testimonial__item__content">
-                                    <div class="author__icon">
-                                        <img src="assets/images/author/author-2x.webp" alt="">
-                                    </div>
-                                    <div class="testimonial__content">
-                                        <div class="single__slider__item ">
-                                            <div class="slider__rating mb-20">
-                                                <i class="flaticon-star"></i>
-                                                <i class="flaticon-star"></i>
-                                                <i class="flaticon-star"></i>
-                                                <i class="flaticon-star"></i>
-                                                <i class="flaticon-star-sharp-half-stroke"></i>
-                                            </div>
-                                            <span class="slider__text d-block">Choosing Bokinn was one of the best decisions we've ever made. They have proven to be a reliable and innovative partner, always ready to tackle new challenges with and expertise.Their commitment to and delivering tailored.</span>
-                                            <div class="slider__author__info">
-                                                <div class="slider__author__info__content">
-                                                    <h6 class="mb-0">Sarah Martinez</h6>
-                                                    <span>COO of Apex Solutions</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testimonial__item__content">
-                                    <div class="author__icon">
-                                        <img src="assets/images/author/author-4.webp" alt="">
-                                    </div>
-                                    <div class="testimonial__content">
-                                        <div class="single__slider__item ">
-                                            <div class="slider__rating mb-20">
-                                                <i class="flaticon-star"></i>
-                                                <i class="flaticon-star"></i>
-                                                <i class="flaticon-star"></i>
-                                                <i class="flaticon-star"></i>
-                                                <i class="flaticon-star-sharp-half-stroke"></i>
-                                            </div>
-                                            <span class="slider__text d-block">Choosing Bokinn was one of the best decisions we've ever made. They have proven to be a reliable and innovative partner, always ready to tackle new challenges with and expertise.Their commitment to and delivering tailored.</span>
-                                            <div class="slider__author__info">
-                                                <div class="slider__author__info__content">
-                                                    <h6 class="mb-0">Sarah Martinez</h6>
-                                                    <span>COO of Apex Solutions</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- client testimonial  end -->
 
     <!-- video section start -->
     <div class="rts__section video video__full">
