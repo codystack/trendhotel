@@ -4,7 +4,7 @@ include "./components/navbar.php";
 include "./components/offcanvas-menu.php";
 ?>
 
-    <div class="rts__section page__hero__height page__hero__bg" style="background-image: url(assets/images/DSC_0398.jpg); height: 300px; width: 100%; display: flex; justify-content: center; align-items: center; text-align: center;">
+    <div class="rts__section page__hero__height page__hero__bg" style="background-image: url(assets/images/DSC_0301.jpg); height: 300px; width: 100%; display: flex; justify-content: center; align-items: center; text-align: center;">
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-12">

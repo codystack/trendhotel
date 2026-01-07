@@ -89,7 +89,6 @@ include "./components/offcanvas-menu.php";
         </div>
     </div>
 
-
     <div class="rts__section about__area is__home__main section__padding">
         <div class="section__shape d-none d-xl-block">
             <img src="assets/images/about/section__shape.svg" alt="">
@@ -120,7 +119,6 @@ include "./components/offcanvas-menu.php";
         </div>
     </div>
 
-    <!-- facilities -->
     <div class="rts__section facilities__area has__background has__shape py-90">
         <div class="section__shape">
             <img src="assets/images/shape/facility-1.svg" alt="">
@@ -130,7 +128,7 @@ include "./components/offcanvas-menu.php";
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="section__topbar">
                         <span class="h6 subtitle__icon__three mx-auto">Facilities</span>
-                        <h2 class="section__title">Hotel Facilities</h2>
+                        <h2 class="section__title">Premium Amenities</h2>
                     </div>
                 </div>
             </div>
@@ -143,7 +141,7 @@ include "./components/offcanvas-menu.php";
                             <a href="#">
                                 <h6 class="card-title h6 mb-15">Rooms and Suites</h6>
                             </a>
-                            <p class="card-text">Varied types of rooms, from standard to luxury suites, equipped with essentials like beds.</p>
+                            <p class="card-text">Comfortable rooms and suites, from Standard to Elite, with cozy beds and modern amenities.</p>
                         </div>
                     </div>
                 </div>
@@ -154,18 +152,18 @@ include "./components/offcanvas-menu.php";
                             <a href="#">
                                 <h6 class="card-title h6 mb-15">24-Hour Security</h6>
                             </a>
-                            <p class="card-text">On-site security personnel and best surveillance. from standard to luxury suites,Secure storage for valuables.</p>
+                            <p class="card-text">Around-the-clock security ensures guests enjoy a safe, secure, and worry-free stay at all times.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-6">
                     <div class="card rts__card no-border is__home radius-6">
                         <div class="card-body">
-                            <div class="icon"><img src="assets/images/icon/gym.svg" alt=""></div>
+                            <div class="icon"><img src="assets/images/icon/wifix.svg" alt=""></div>
                             <a href="#">
-                                <h6 class="card-title h6 mb-15">Fitness Center</h6>
+                                <h6 class="card-title h6 mb-15">Free Wi-Fi</h6>
                             </a>
-                            <p class="card-text">Equipped with exercise machines and weights.Offering massages, facials, and other treatments.</p>
+                            <p class="card-text">Reliable high-speed Wi-Fi is available throughout the hotel for work, entertainment.</p>
                         </div>
                     </div>
                 </div>
@@ -176,16 +174,14 @@ include "./components/offcanvas-menu.php";
                             <a href="#">
                                 <h6 class="card-title h6 mb-15">Swimming Pool</h6>
                             </a>
-                            <p class="card-text">Indoor or outdoor pools for leisure or exercise.Offering massages, facials, and other treatments</p>
+                            <p class="card-text">Relax and refresh in our clean, inviting swimming pool, perfect for leisure and enjoyment.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- facilities end -->
 
-    <!-- our room -->
     <div class="rts__section pt-120 pb-120">
         <div class="container">
             <div class="row">
@@ -195,114 +191,121 @@ include "./components/offcanvas-menu.php";
                         <h2 class="content__title h2 lh-1">Our Rooms</h2>
                     </div>
                     <div class="section__content__right">
-                        <p>Our rooms offer a harmonious blend of comfort and elegance, designed to provide an exceptional stay for every guest. Each room features plush bedding, high-quality linens, and a selection of pillows to ensure a restful night's sleep.</p>
+                        <p>Our rooms and suites at Trend Hotel and Suites offer a perfect blend of comfort and elegance, designed to provide an exceptional stay for every guest. Each accommodation features plush bedding, premium linens, and a selection of pillows to ensure a restful and rejuvenating night’s sleep.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- row end -->
+        
         <div class="row">
             <div class="main__room__slider overflow-hidden wow fadeInUp" data-wow-delay=".5s">
                 <div class="swiper-wrapper">
-                    <!-- single room slider -->
+                    
                     <div class="swiper-slide">
                         <div class="room__slide__box radius-6">
                             <div class="room__thumbnail jara-mask-2 jarallax">
-                                <img height="585" width="420" class="radius-6 jarallax-img" src="assets/images/room/1.webp" alt="">
+                                <img height="585" width="420" class="radius-6 jarallax-img" src="assets/images/standard.jpg" alt="">
                             </div>
                             <div class="room__content">
-                                <a href="room-details-1.html" class="room__title">
-                                    <h5>The Ritz-Carlton</h5>
+                                <a href="standard-room" class="room__title">
+                                    <h5>Standard Room</h5>
                                 </a>
                                 <div class="room__content__meta">
-                                    <span><i class="flaticon-construction"></i> 35 sqm</span>
-                                    <span><i class="flaticon-user"></i>2 Person</span>
+                                    <span><i class="flaticon-wifi"></i></span>
+                                    <span><i class="flaticon-user"></i></span>
+                                    <span><i class="flaticon-hotel-room"></i></span>
+                                    <span><i class="flaticon-swimming"></i></span>
+                                    <span><i class="flaticon-shower"></i></span>
                                 </div>
-                                <span class="h4 rent mb-0 mt-15 d-block">100$</span>
+                                <span class="h4 rent mb-0 mt-15 d-block">₦40,000</span>
                             </div>
                         </div>
                     </div>
-                    <!-- single room slider end -->
 
-                    <!-- single room slider -->
                     <div class="swiper-slide">
                         <div class="room__slide__box radius-6">
                             <div class="room__thumbnail jara-mask-2 jarallax">
-                                <img height="585" width="420" class="radius-6 jarallax-img" src="assets/images/room/2.webp" alt="">
+                                <img height="585" width="420" class="radius-6 jarallax-img" src="assets/images/deluxe.jpg" alt="">
                             </div>
                             <div class="room__content">
-                                <a href="room-details-1.html" class="room__title">
-                                    <h5>Four Seasons Hotels</h5>
+                                <a href="deluxe-room" class="room__title">
+                                    <h5>Deluxe Room</h5>
                                 </a>
                                 <div class="room__content__meta">
-                                    <span><i class="flaticon-construction"></i>35 sqm</span>
-                                    <span><i class="flaticon-user"></i>2 Person</span>
+                                    <span><i class="flaticon-wifi"></i></span>
+                                    <span><i class="flaticon-user"></i></span>
+                                    <span><i class="flaticon-hotel-room"></i></span>
+                                    <span><i class="flaticon-swimming"></i></span>
+                                    <span><i class="flaticon-shower"></i></span>
                                 </div>
-                                <span class="h4 rent mb-0 mt-15 d-block">130$</span>
+                                <span class="h4 rent mb-0 mt-15 d-block">₦45,000</span>
                             </div>
                         </div>
                     </div>
-                    <!-- single room slider end -->
 
-                    <!-- single room slider -->
                     <div class="swiper-slide">
                         <div class="room__slide__box radius-6">
                             <div class="room__thumbnail jara-mask-2 jarallax">
-                                <img height="585" width="420" class="radius-6 jarallax-img" src="assets/images/room/3.webp" alt="">
+                                <img height="585" width="420" class="radius-6 jarallax-img" src="assets/images/executive.jpg" alt="">
                             </div>
                             <div class="room__content">
-                                <a href="room-details-1.html" class="room__title">
-                                    <h5>Waldorf Astoria Hotels</h5>
+                                <a href="executive-room" class="room__title">
+                                    <h5>Executive Room</h5>
                                 </a>
                                 <div class="room__content__meta">
-                                    <span><i class="flaticon-construction"></i>35 sqm</span>
-                                    <span><i class="flaticon-user"></i>5 Person</span>
+                                    <span><i class="flaticon-wifi"></i></span>
+                                    <span><i class="flaticon-user"></i></span>
+                                    <span><i class="flaticon-hotel-room"></i></span>
+                                    <span><i class="flaticon-swimming"></i></span>
+                                    <span><i class="flaticon-shower"></i></span>
                                 </div>
-                                <span class="h4 rent mb-0 mt-15 d-block">150$</span>
+                                <span class="h4 rent mb-0 mt-15 d-block">₦55,000</span>
                             </div>
                         </div>
                     </div>
-                    <!-- single room slider end -->
 
-                    <!-- single room slider -->
                     <div class="swiper-slide">
                         <div class="room__slide__box radius-6">
                             <div class="room__thumbnail jara-mask-2 jarallax">
-                                <img height="585" width="420" class="radius-6 jarallax-img" src="assets/images/room/4.webp" alt="">
+                                <img height="585" width="420" class="radius-6 jarallax-img" src="assets/images/elite.jpg" alt="">
                             </div>
                             <div class="room__content">
-                                <a href="room-details-1.html" class="room__title">
-                                    <h5>Waldorf Astoria Hotels</h5>
+                                <a href="elite-room" class="room__title">
+                                    <h5>Elite Room</h5>
                                 </a>
                                 <div class="room__content__meta">
-                                    <span><i class="flaticon-construction"></i>35 sqm</span>
-                                    <span><i class="flaticon-user"></i>5 Person</span>
+                                    <span><i class="flaticon-wifi"></i></span>
+                                    <span><i class="flaticon-user"></i></span>
+                                    <span><i class="flaticon-hotel-room"></i></span>
+                                    <span><i class="flaticon-swimming"></i></span>
+                                    <span><i class="flaticon-shower"></i></span>
                                 </div>
-                                <span class="h4 rent mb-0 mt-15 d-block">150$</span>
+                                <span class="h4 rent mb-0 mt-15 d-block">₦60,000</span>
                             </div>
                         </div>
                     </div>
-                    <!-- single room slider end -->
 
-                    <!-- single room slider -->
                     <div class="swiper-slide">
                         <div class="room__slide__box radius-6">
                             <div class="room__thumbnail jara-mask-2 jarallax">
-                                <img height="585" width="420" class="radius-6 jarallax-img" src="assets/images/room/1.webp" alt="">
+                                <img height="585" width="420" class="radius-6 jarallax-img" src="assets/images/suites.jpg" alt="">
                             </div>
                             <div class="room__content">
-                                <a href="room-details-1.html" class="room__title">
-                                    <h5>Waldorf Astoria Hotels</h5>
+                                <a href="suites" class="room__title">
+                                    <h5>Suites</h5>
                                 </a>
                                 <div class="room__content__meta">
-                                    <span><i class="flaticon-construction"></i>35 sqm</span>
-                                    <span><i class="flaticon-user"></i>5 Person</span>
+                                    <span><i class="flaticon-wifi"></i></span>
+                                    <span><i class="flaticon-user"></i></span>
+                                    <span><i class="flaticon-hotel-room"></i></span>
+                                    <span><i class="flaticon-swimming"></i></span>
+                                    <span><i class="flaticon-shower"></i></span>
                                 </div>
-                                <span class="h4 rent mb-0 mt-15 d-block">150$</span>
+                                <span class="h4 rent mb-0 mt-15 d-block">₦90,000</span>
                             </div>
                         </div>
                     </div>
-                    <!-- single room slider end -->
+                    
                 </div>
             </div>
 
@@ -313,9 +316,7 @@ include "./components/offcanvas-menu.php";
             <!-- pagination button end -->
         </div>
     </div>
-    <!-- our room end -->
-
-    <!-- video section start -->
+    
     <div class="rts__section video video__full">
         <div class="container-full">
             <div class="row">
@@ -347,6 +348,5 @@ include "./components/offcanvas-menu.php";
             </div>
         </div>
     </div>
-    <!-- video section end -->
-
+    
 <?php include "./components/footer.php"; ?>
