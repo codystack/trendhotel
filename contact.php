@@ -33,7 +33,7 @@ include "./components/offcanvas-menu.php";
                             <div class="rts__widget">
                                 <ul>
                                     <li><a href="#"><i class="flaticon-phone-flip"></i> 09163227299, 09029602281</a></li>
-                                    <li><a href="mailto:hello@trendhotels.com.ng"><i class="flaticon-envelope"></i>hello@trendhotels.com.ng, trendhotelandsuites@gmail.com</a></li>
+                                    <li><a href="mailto:trendhotelandsuites@gmail.com"><i class="flaticon-envelope"></i>trendhotelandsuites@gmail.com</a></li>
                                     <li><a href="#"><i class="flaticon-marker"></i> Trend Hotel and Suites, <br />Along Bishop Uzodike Seminary School, <br />Ugwuokwenu, Umudimkwa, Umudim, Nnewi.</a></li>
                                 </ul>
                                 <div class="mt-4 d-flex gap-3">
