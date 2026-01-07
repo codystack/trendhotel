@@ -53,7 +53,16 @@
                                 </li>
 
                                 <li class="slide has__children">
-                                    <a class="slide__menu__item" href="rooms">Rooms</a>
+                                    <a class="slide__menu__item" href="#">Rooms
+                                        <span class="toggle"></span>
+                                    </a>
+                                    <ul class="slide__menu">
+                                        <li><a href="standard-room">Standard</a></li>
+                                        <li><a href="deluxe-room">Deluxe</a></li>
+                                        <li><a href="executive-room">Executive</a></li>
+                                        <li><a href="elite-room">Elite</a></li>
+                                        <li><a href="suites">Suites</a></li>
+                                    </ul>
                                 </li>
 
                                 <li class="slide has__children">
