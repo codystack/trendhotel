@@ -19,8 +19,15 @@
                                             <a href="about" class="navigation__menu--item__link">About</a>
                                         </li>
 
-                                        <li class="navigation__menu--item">
-                                            <a href="rooms" class="navigation__menu--item__link">Rooms</a>
+                                        <li class="navigation__menu--item has-child has-arrow">
+                                            <a href="#" class="navigation__menu--item__link">Rooms</a>
+                                            <ul class="submenu sub__style" role="menu">
+                                                <li role="menuitem"><a href="standard-room">Standard</a></li>
+                                                <li role="menuitem"><a href="deluxe-room">Deluxe</a></li>
+                                                <li role="menuitem"><a href="executive-room">Executive</a></li>
+                                                <li role="menuitem"><a href="elite-room">Elite</a></li>
+                                                <li role="menuitem"><a href="suites">Suites</a></li>
+                                            </ul>
                                         </li>
 
                                         <li class="navigation__menu--item">

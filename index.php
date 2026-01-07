@@ -496,13 +496,13 @@ include "./components/offcanvas-menu.php";
     <!-- client testimonial  end -->
 
     <!-- video section start -->
-    <div class="rts__section pb-120 video video__full">
+    <div class="rts__section video video__full">
         <div class="container-full">
             <div class="row">
                 <div class="col-12">
                     <div class="video__area position-relative wow fadeInUp">
                         <div class="video__area__image jara-mask-2 jarallax rounded-0">
-                            <img class="radius-none jarallax-img" src="assets/images/video/video-main.webp" alt="">
+                            <img class="radius-none jarallax-img" src="assets/images/trend-bg.jpg" alt="">
                         </div>
                         <div class="video--spinner__wrapper ">
                             <div class="rts__circle">
@@ -515,7 +515,7 @@ include "./components/offcanvas-menu.php";
                                     </text>
                                 </svg>
                                 <div class="rts__circle--icon">
-                                    <a href="https://www.youtube.com/watch?v=qOwxqRGHy5Q" class="video-play">
+                                    <a href="https://www.youtube.com/watch?v=aiR8oof16pE" class="video-play">
                                         <i class="flaticon-play"></i>
 
                                     </a>
@@ -528,168 +528,5 @@ include "./components/offcanvas-menu.php";
         </div>
     </div>
     <!-- video section end -->
-
-    <!-- special section start -->
-    <div class="rts__section offer__area is__home__one has__shape">
-        <div class="container">
-            <div class="row position-relative justify-content-center text-center mb-30">
-                <div class="col-lg-6 wow fadeInUp">
-                    <div class="section__topbar">
-                        <span class="h6 subtitle__icon__three mx-auto">Special Offer</span>
-                        <h2 class="section__title">Special Offer</h2>
-                    </div>
-                </div>
-            </div>
-            <!-- row end -->
-            <div class="row justify-content-center g-30">
-                <div class="col-lg-10 col-xl-6 col-xxl-5">
-                    <div class="single__offer__card">
-                        <a href="#">
-                            <img src="assets/images/offer/5.webp" alt="">
-                        </a>
-                        <div class="single__offer__card__content">
-                            <a href="#" class="h4">Family Fun Package</a>
-                            <ul class="offer__included list-unstyled">
-                                <li><i class="flaticon-check-circle"></i> 15% off on family suites</li>
-                                <li><i class="flaticon-check-circle"></i> Free meals for kids under 12</li>
-                                <li><i class="flaticon-check-circle"></i> Complimentary tickets</li>
-                                <li><i class="flaticon-check-circle"></i> The local amusement park</li>
-                            </ul>
-                            <h3 class="offer__price mb-0">$39.00</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-10 col-xl-6 col-xxl-7">
-                    <div class="d-flex flex-column gap-30">
-
-                        <div class="single__offer__card is__flex">
-                            <a href="#">
-                                <img src="assets/images/offer/6.webp" width="265" height="310" alt="">
-                            </a>
-                            <div class="single__offer__card__content">
-                                <a href="#" class="h5">Spa Retreat</a>
-                                <ul class="offer__included list-unstyled">
-                                    <li><i class="flaticon-check-circle"></i> A two-night stay in a room</li>
-                                    <li><i class="flaticon-check-circle"></i> Daily spa treatments</li>
-                                    <li><i class="flaticon-check-circle"></i> Healthy breakfast and lunch</li>
-                                    <li><i class="flaticon-check-circle"></i> Access to all spa </li>
-                                </ul>
-                                <h4 class="offer__price mb-0">$39.00</h4>
-                            </div>
-                        </div>
-
-                        <div class="single__offer__card is__flex">
-                            <a href="#">
-                                <img src="assets/images/offer/7.webp" width="265" height="310" alt="">
-                            </a>
-                            <div class="single__offer__card__content">
-                                <a href="#" class="h5">Romantic Getaway</a>
-                                <ul class="offer__included list-unstyled">
-                                    <li><i class="flaticon-check-circle"></i> A two-night stay in a room</li>
-                                    <li><i class="flaticon-check-circle"></i> Daily spa treatments</li>
-                                    <li><i class="flaticon-check-circle"></i> Healthy breakfast and lunch</li>
-                                    <li><i class="flaticon-check-circle"></i> Access to all spa </li>
-                                    <h4 class="offer__price mb-0">$39.00</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- special section end -->
-
-    <!-- gallery -->
-    <div class="rts__section is__home__main mb-120">
-        <div class="container-fluid">
-            <div class="row position-relative justify-content-center text-center mb-30">
-                <div class="col-lg-6 wow fadeInUp">
-                    <div class="section__topbar">
-                        <span class="h6 subtitle__icon__three mx-auto">Instagram Post</span>
-                        <h2 class="section__title">Follow on Instagram</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="insta__gallery__slider overflow-hidden">
-                    <div class="swiper-wrapper gallery">
-                        <!-- single gallery image -->
-                        <div class="swiper-slide">
-                            <div class="gallery__item">
-                                <img src="assets/images/insta/1.webp" height="300" width="300" alt="">
-                                <a href="assets/images/insta/1.webp" class="gallery__popup">
-                                    <img src="assets/images/icon/instagram.svg" height="40" width="40" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <!-- single gallery image end -->
-                        <!-- single gallery image -->
-                        <div class="swiper-slide">
-                            <div class="gallery__item">
-                                <img src="assets/images/insta/2.webp" height="300" width="300" alt="">
-                                <a href="assets/images/insta/2.webp" class="gallery__popup">
-                                    <img src="assets/images/icon/instagram.svg" height="40" width="40" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <!-- single gallery image end -->
-                        <!-- single gallery image -->
-                        <div class="swiper-slide">
-                            <div class="gallery__item">
-                                <img src="assets/images/insta/3.webp" height="300" width="300" alt="">
-                                <a href="assets/images/insta/3.webp" class="gallery__popup">
-                                    <img src="assets/images/icon/instagram.svg" height="40" width="40" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <!-- single gallery image end -->
-                        <!-- single gallery image -->
-                        <div class="swiper-slide">
-                            <div class="gallery__item">
-                                <img src="assets/images/insta/4.webp" height="300" width="300" alt="">
-                                <a href="assets/images/insta/4.webp" class="gallery__popup">
-                                    <img src="assets/images/icon/instagram.svg" height="40" width="40" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <!-- single gallery image end -->
-                        <!-- single gallery image -->
-                        <div class="swiper-slide">
-                            <div class="gallery__item">
-                                <img src="assets/images/insta/5.webp" height="300" width="300" alt="">
-                                <a href="assets/images/insta/5.webp" class="gallery__popup">
-                                    <img src="assets/images/icon/instagram.svg" height="40" width="40" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <!-- single gallery image end -->
-
-                        <!-- single gallery image -->
-                        <div class="swiper-slide">
-                            <div class="gallery__item">
-                                <img src="assets/images/insta/6.webp" height="300" width="300" alt="">
-                                <a href="assets/images/insta/6.webp" class="gallery__popup">
-                                    <img src="assets/images/icon/instagram.svg" height="40" width="40" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <!-- single gallery image end -->
-
-                        <!-- single gallery image -->
-                        <div class="swiper-slide">
-                            <div class="gallery__item">
-                                <img src="assets/images/insta/1.webp" height="300" width="300" alt="">
-                                <a href="assets/images/insta/1.webp" class="gallery__popup">
-                                    <img src="assets/images/icon/instagram.svg" height="40" width="40" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <!-- single gallery image end -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- gallery end -->
 
 <?php include "./components/footer.php"; ?>

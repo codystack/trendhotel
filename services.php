@@ -4,7 +4,7 @@ include "./components/navbar.php";
 include "./components/offcanvas-menu.php";
 ?>
 
-    <div class="rts__section page__hero__height page__hero__bg" style="background-image: url(assets/images/4.jpeg); height: 300px; width: 100%; display: flex; justify-content: center; align-items: center; text-align: center;">
+    <div class="rts__section page__hero__height page__hero__bg" style="background-image: url(assets/images/DSC_0263.jpg); height: 300px; width: 100%; display: flex; justify-content: center; align-items: center; text-align: center;">
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-12">
@@ -24,7 +24,7 @@ include "./components/offcanvas-menu.php";
                 
                 <div class="single__service__item if__is__default if__activities">
                     <div class="service__thumb jarallax">
-                        <img class="jarallax-img" src="assets/images/Restaurant.jpg" width="605" height="650" alt="service image">
+                        <img class="jarallax-img" src="assets/images/trend-restaurant.jpg" width="605" height="650" alt="service image">
                     </div>
                     <div class="service__content">
                         <div class="section__content__left">
@@ -35,9 +35,9 @@ include "./components/offcanvas-menu.php";
                     </div>
                 </div>
 
-                <div class="single__service__item if__is__reverse if__activities">
+                <div class="single__service__item if__is__reverse if__activities pb-120">
                     <div class="service__thumb jarallax">
-                        <img class="jarallax-img" src="assets/images/Pool.jpg" width="605" height="650" alt="service image">
+                        <img class="jarallax-img" src="assets/images/trend-pool.jpg" width="605" height="650" alt="service image">
                     </div>
                     <div class="service__content">
                         <div class="section__content__left">
@@ -50,7 +50,7 @@ include "./components/offcanvas-menu.php";
 
                 <div class="single__service__item if__is__default if__activities">
                     <div class="service__thumb jarallax">
-                        <img class="jarallax-img" src="assets/images/Bar.jpg" width="605" height="650" alt="service image">
+                        <img class="jarallax-img" src="assets/images/trend-bar.jpg" width="605" height="650" alt="service image">
                     </div>
                     <div class="service__content">
                         <div class="section__content__left">

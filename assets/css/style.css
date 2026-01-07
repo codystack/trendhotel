@@ -9811,7 +9811,7 @@ textarea:focus-visible, input:focus-visible {
 
 .video__area__image {
   position: relative;
-  height: 685px;
+  height: 485px;
   width: 100%;
 }
 @media screen and (max-width: 768px) {
